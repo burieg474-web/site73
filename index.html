@@ -11,67 +11,81 @@
 
 <body>
 
+    <!-- BARRE DU HAUT -->
+
     <header class="navbar">
 
         <div class="logo">
             SITE 73 <span>RP</span>
         </div>
 
-        <nav>
-            <button onclick="showPage('accueil')">
-                Accueil
+        <div class="menu">
+
+            <button class="menu-button">
+                Menu ▾
             </button>
 
-            <button onclick="showPage('info')">
-                Info
-            </button>
-        </nav>
+            <div class="menu-content">
+
+                <a href="#accueil">
+                    Accueil
+                </a>
+
+                <a href="#info">
+                    Info
+                </a>
+
+            </div>
+
+        </div>
 
         <div class="status">
             <span class="status-dot"></span>
-            <span id="serverStatus">ACTIF</span>
+            ACTIF
         </div>
 
     </header>
 
 
+    <!-- CONTENU -->
+
     <main>
 
         <!-- ACCUEIL -->
 
-        <section id="accueil" class="page active">
+        <section id="accueil" class="hero">
 
-            <div class="hero">
+            <p class="small-title">
+                ROBLOX SCP ROLEPLAY
+            </p>
 
-                <p class="small-title">
-                    ROBLOX SCP ROLEPLAY
-                </p>
+            <h1>
+                SITE <span>73</span> RP
+            </h1>
 
-                <h1>
-                    SITE <span>73</span> RP
-                </h1>
+            <p class="description">
+                Plongez dans un univers SCP Roleplay sur Roblox,
+                rejoignez le Site 73 et vivez des situations uniques
+                avec notre communauté.
+            </p>
 
-                <p class="description">
-                    Plongez dans un univers SCP Roleplay sur Roblox,
-                    rejoignez le Site 73 et vivez des situations
-                    uniques avec notre communauté.
-                </p>
+            <div class="buttons">
 
-                <div class="buttons">
+                <a
+                    class="primary"
+                    href="#info"
+                >
+                    Découvrir le serveur
+                </a>
 
-                    <button class="primary" onclick="showPage('info')">
-                        Découvrir le serveur
-                    </button>
-
-                    <a
-                        class="secondary"
-                        href="https://discord.gg/Gga8xfwqvj"
-                        target="_blank"
-                    >
-                        Rejoindre le Discord
-                    </a>
-
-                </div>
+                <a
+                    class="secondary"
+                    href="https://discord.gg/Gga8xfwqvj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Rejoindre le Discord
+                </a>
 
             </div>
 
@@ -80,7 +94,7 @@
 
         <!-- INFO -->
 
-        <section id="info" class="page">
+        <section id="info" class="info-section">
 
             <div class="page-header">
 
@@ -89,7 +103,7 @@
                 </p>
 
                 <h2>
-                    À propos du <span>serveur</span>
+                    Bienvenue sur <span>Site 73 RP</span>
                 </h2>
 
             </div>
@@ -98,58 +112,68 @@
             <div class="content-box">
 
                 <h3>
-                    Bienvenue sur Site 73 RP
+                    🧪 Une expérience SCP Roleplay sur Roblox
                 </h3>
 
                 <p>
-                    Site 73 RP est un serveur Roblox SCP Roleplay
-                    créé pour proposer une expérience immersive,
-                    conviviale et surtout amusante.
+                    Site 73 RP est un serveur Roblox inspiré de
+                    l'univers SCP. Entrez dans un site secret,
+                    choisissez votre rôle et participez à la vie
+                    du complexe.
                 </p>
 
                 <p>
-                    Rejoignez le Site 73 et incarnez le rôle de votre
-                    choix. Sécurité, scientifiques, membres du personnel,
-                    unités spécialisées et bien d'autres rôles vous
-                    permettront de participer à la vie du site.
+                    Que vous souhaitiez rejoindre les forces de
+                    sécurité, travailler dans les laboratoires,
+                    intégrer une unité spécialisée ou simplement
+                    découvrir l'univers SCP, chacun peut trouver
+                    sa place au sein du Site 73.
                 </p>
 
                 <p>
-                    Notre objectif est de construire une communauté
-                    active où chacun peut profiter du Roleplay,
-                    participer aux événements et créer ses propres
-                    histoires.
+                    🎭 Notre objectif est de proposer un Roleplay
+                    immersif tout en gardant une communauté active,
+                    agréable et accessible à tous.
                 </p>
 
                 <p>
-                    Vous trouverez une communauté composée de personnes
-                    sympathiques et prêtes à jouer ensemble dans une
-                    bonne ambiance.
+                    👥 Vous pourrez rencontrer des personnes
+                    sympathiques, créer des histoires et vivre
+                    différentes situations directement dans le jeu.
                 </p>
 
                 <p>
-                    Le serveur est entre de bonnes mains : notre équipe
-                    veille au bon fonctionnement du serveur et à ce que
-                    chacun puisse profiter de son expérience dans les
-                    meilleures conditions possibles.
+                    🛡️ Le serveur est entre de bonnes mains.
+                    Notre équipe travaille continuellement pour
+                    assurer le bon fonctionnement du serveur et
+                    maintenir une bonne ambiance.
                 </p>
+
+                <p>
+                    🚀 Si vous recherchez un serveur SCP Roleplay
+                    où vous pouvez vous amuser, rencontrer une
+                    communauté et participer à un projet qui évolue,
+                    <strong>Site 73 RP est fait pour vous.</strong>
+                </p>
+
 
                 <div class="discord-box">
 
                     <h3>
-                        Rejoignez-nous !
+                        💬 Rejoignez notre communauté
                     </h3>
 
                     <p>
-                        Pour suivre les actualités, discuter avec la
-                        communauté et ne manquer aucune nouveauté,
-                        rejoignez notre Discord officiel.
+                        Rejoignez notre Discord officiel pour
+                        rencontrer la communauté, découvrir les
+                        nouveautés et suivre l'évolution de Site 73 RP.
                     </p>
 
                     <a
                         class="primary discord-button"
                         href="https://discord.gg/Gga8xfwqvj"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         Rejoindre le Discord
                     </a>
@@ -170,9 +194,6 @@
         </p>
 
     </footer>
-
-
-    <script src="script.js"></script>
 
 </body>
 </html>
